@@ -60,3 +60,24 @@ a:hover {
   padding: 5px 50px;
   margin-bottom: 10px;
 }
+
+.custom-control-label::before {
+  top: .25rem;
+  left: -2.5rem;
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ccc;
+}
+
+.custom-control-label::after {
+  top: -0.17em;
+  left: -3rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  background-color: #ea8823;
+  border: none;
+}

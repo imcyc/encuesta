@@ -35,7 +35,8 @@
     "imcyc": [
       {
         "tipo": "ATENCIÓN AL CLIENTE",
-        "pregunta": "¿EL TRATO QUE USTED RECIBIO AL MOMENTO DE CONTRATAR EL CURSO, CERTIFICACION O DIPLOMADO FUE…?",
+        "tracker": 1,
+        "pregunta": "¿EL TRATO QUE USTED RECIBIÓ AL MOMENTO DE CONTRATAR EL CURSO, CERTIFICACIÓN O DIPLOMADO FUE…?",
         "opciones": [
             "EXCELENTE",
             "BUENO",
@@ -45,6 +46,7 @@
       },
       {
         "tipo": "ATENCIÓN AL CLIENTE",
+        "tracker": 2,
         "pregunta": "¿SOLICITO FACTURA AL MOMENTO DE SU INSCRIPCIÓN?",
         "opciones": [
             "SI",
@@ -53,6 +55,7 @@
       },
       {
         "tipo": "ATENCIÓN AL CLIENTE",
+        "tracker": 3,
         "pregunta": "¿USTED YA RECIBIO SU FACTURA?",
         "opciones": [
             "SI",
@@ -61,6 +64,7 @@
       },
       {
         "tipo": "ATENCIÓN AL CLIENTE",
+        "tracker": 4,
         "pregunta": "¿AL MOMENTO DE SU INSCRIPCIÓN ¿SE LE INFORMO LA SEDE, EL PROGRAMA Y HORARIO DEL CURSO?",
         "opciones": [
             "SI",
@@ -69,6 +73,7 @@
       },
       {
         "tipo": "PROFESOR O CONFERENCISTA",
+        "tracker": 5,
         "pregunta": "¿EL TEMA DEL CURSO, CERTIFICACIÓN O DIPLOMADO FUE…?",
         "opciones": [
             "SI",
@@ -77,6 +82,7 @@
       },
       {
         "tipo": "PROFESOR O CONFERENCISTA",
+        "tracker": 6,
         "pregunta": "¿LA PUNTUALIDAD DEL INICIO DEL CURSO, CERTIFICACIÓN O DIPLOMADO FUE…?",
         "opciones": [
           "EXCELENTE",
@@ -87,6 +93,7 @@
       },
       {
         "tipo": "PROFESOR O CONFERENCISTA",
+        "tracker": 7,
         "pregunta": "EVALUE EL GRADO EN EL QUE EL PROFESOR PREPARO SU PRESENTACIÓN",
         "opciones": [
           "EXCELENTE",
@@ -97,6 +104,7 @@
       },
       {
         "tipo": "PROFESOR O CONFERENCISTA",
+        "tracker": 8,
         "pregunta": "¿LA DISPOSICIÓN PARA RESOLVER DUDAS Y RESPONDER PREGUNTAS FUE?",
         "opciones": [
           "EXCELENTE",
@@ -107,6 +115,7 @@
       },
       {
         "tipo": "PROFESOR O CONFERENCISTA",
+        "tracker": 9,
         "pregunta": "¿LA DURACIÓN Y ESPACIADO DE LAS SESIONES LE PARECIÓ?",
         "opciones": [
           "EXCELENTE",
@@ -117,6 +126,7 @@
       },
       {
         "tipo": "SERVICIOS IMCYC",
+        "tracker": 10,
         "pregunta": "¿LA ATENCIÓN POR PARTE DEL EQUIPO DE IMCYC FUE?",
         "opciones": [
           "EXCELENTE",
@@ -127,6 +137,7 @@
       },
       {
         "tipo": "SERVICIOS IMCYC",
+        "tracker": 11,
         "pregunta": "¿LA CALIDAD DE LOS MATERIALES OTORGADOS POR EL IMCYC LE PARECIÓ?",
         "opciones": [
           "EXCELENTE",
@@ -137,6 +148,7 @@
       },
       {
         "tipo": "SERVICIOS IMCYC",
+        "tracker": 12,
         "pregunta": "¿LA CALIDAD DE LOS ALIMENTOS OFRECIDOS DURANTE EL RECESO LE PARECIÓ?",
         "opciones": [
           "EXCELENTE",
@@ -147,6 +159,7 @@
       },
       {
         "tipo": "SERVICIOS IMCYC",
+        "tracker": 13,
         "pregunta": "¿LA COMODIDAD DEL MOBILIARIO E INSTLACIONES DEL IMCYC LE PARECIÓ?",
         "opciones": [
           "EXCELENTE",
@@ -157,17 +170,18 @@
       },
       {
         "tipo": "PREGUNTAS FINALES",
+        "tracker": 14,
         "pregunta": "¿COMO SE ENTERO DEL CURSO, CERTIFICACIÓN O DIPLOMADO?",
         "opciones": [
           "AMIGO",
           "COLABORADOR",
           "PÁGINA WEB",
-          "REDES SOCIALES",
-          "DIRECTAMENTE"
+          "REDES SOCIALES"
         ]
       },
       {
         "tipo": "PREGUNTAS FINALES",
+        "tracker": 15,
         "pregunta": "¿RECOMENDARIA ESTE CURSO?",
         "opciones": [
             "SI",
@@ -176,11 +190,13 @@
       },
       {
         "tipo": "PREGUNTAS FINALES",
+        "tracker": 16,
         "pregunta": "¿QUE OTROS TEMAS O CURSOS LE INTERESARÍAN?",
         "opciones": []
       },
       {
         "tipo": "PREGUNTAS FINALES",
+        "tracker": 17,
         "pregunta": "¿ALGÚN COMENTARIO QUE DESEE REALIZAR?",
         "opciones": []
       }

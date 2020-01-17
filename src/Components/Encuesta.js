@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Form from 'react-bootstrap/Form';
+import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button'
@@ -28,6 +29,7 @@ const Encuesta = () => {
   return(
     <div>
       <Header />
+      <Container>
       <Form>
 
         <div style={style}>
@@ -49,29 +51,42 @@ const Encuesta = () => {
         </div>
 
         <div style={styleDos}>
+
           <Row>
             <Col>
               <hr/>
-                <h1 className="text-left">2) ATENCIÓN AL CLIENTE:</h1>
+                <h1 className="text-left font-weight-bold">2) ATENCIÓN AL CLIENTE:</h1>
               <hr/>
             </Col>
           </Row>
           <Row>
             <Col style={{marginTop: '15px'}}>
-              {datosImcycPreguntas.map(pregunta => (
+              {datosImcycPreguntas.map((pregunta, index) => (
                 <>
+                  <h3 className="text-left" className="numero">{index + 1}</h3>
                   <h2 className="text-left">{pregunta.pregunta}</h2>
+                  <Row>
+                    {pregunta.opciones.map((opcion, index) => (
+                      <>
+                        <Col>
+                          <div class="custom-control custom-radio custom-control-inline">
+                            <input 
+                              type="radio" 
+                              id={`customRadioInline-${pregunta.tracker}-${index}`} 
+                              name={`customRadioInline-${pregunta.tracker}`} 
+                              class="custom-control-input" 
+                            />
+                            <label 
+                              class="custom-control-label" 
+                              for={`customRadioInline-${pregunta.tracker}-${index}`}>
+                                {opcion}
+                            </label>
+                          </div>
+                        </Col>
+                      </>
+                    ))}
+                  </Row>
                   <hr/>
-                  {pregunta.opciones.map(opcion => (
-                    <Form.Check
-                      custom
-                      inline
-                      label="1"
-                      type={opcion}
-                      type="radio"
-                      id={`custom-inline-${opcion}-1`}
-                    />
-                  ))}
                 </>
                 
                 //<Form.Group key={pregunta.pregunta}>
@@ -85,6 +100,7 @@ const Encuesta = () => {
         </div>
         
       </Form>
+      </Container>
     </div>
   )
 };
