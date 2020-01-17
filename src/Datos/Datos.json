@@ -1,37 +1,49 @@
 {
   "preguntas": {
-    "personal": {
-      "p1": {
-        "pregunta": "NOMBRE COMPLETO"
+    "personal": [
+      {
+        "nombre": "NOMBRE COMPLETO",
+        "valor": "nombre_completo",
+        "tipo": "text"
       },
-      "p2": {
-        "pregunta": "FECHA"
+      {
+        "nombre": "FECHA",
+        "valor": "nombre_completo",
+        "tipo": "date"
       },
-      "p3": {
-        "pregunta": "CORREO ELECTRÓNICO"
+      {
+        "nombre": "CORREO ELECTRÓNICO",
+        "valor": "correo_electronico",
+        "tipo": "email"
       },
-      "p4": {
-        "pregunta": "EMPRESA"
+      {
+        "nombre": "EMPRESA",
+        "valor": "empresa",
+        "tipo": "text"
       },
-      "p5": {
-        "pregunta": "NOMBRE DEL CURSO"
+      {
+        "nombre": "NOMBRE DEL CURSO",
+        "valor": "curso",
+        "tipo": "text"
       },
-      "p6": {
-        "pregunta": "TELÉFONO"
+      {
+        "nombre": "TELEFÓNO",
+        "valor": "telefono",
+        "tipo": "number"
       }
-    },
-    "imcyc": {
-      "p1": {
-          "tipo": "ATENCIÓN AL CLIENTE",
-          "pregunta": "¿EL TRATO QUE USTED RECIBIO AL MOMENTO DE CONTRATAR EL CURSO, CERTIFICACION O DIPLOMADO FUE…?",
-          "opciones": [
-              "EXCELENTE",
-              "BUENO",
-              "REGULAR",
-              "MALO"
-          ]
+    ],
+    "imcyc": [
+      {
+        "tipo": "ATENCIÓN AL CLIENTE",
+        "pregunta": "¿EL TRATO QUE USTED RECIBIO AL MOMENTO DE CONTRATAR EL CURSO, CERTIFICACION O DIPLOMADO FUE…?",
+        "opciones": [
+            "EXCELENTE",
+            "BUENO",
+            "REGULAR",
+            "MALO"
+        ]
       },
-      "p2": {
+      {
         "tipo": "ATENCIÓN AL CLIENTE",
         "pregunta": "¿SOLICITO FACTURA AL MOMENTO DE SU INSCRIPCIÓN?",
         "opciones": [
@@ -39,7 +51,7 @@
             "NO"
         ]
       },
-      "p3": {
+      {
         "tipo": "ATENCIÓN AL CLIENTE",
         "pregunta": "¿USTED YA RECIBIO SU FACTURA?",
         "opciones": [
@@ -47,7 +59,7 @@
             "NO"
         ]
       },
-      "p4": {
+      {
         "tipo": "ATENCIÓN AL CLIENTE",
         "pregunta": "¿AL MOMENTO DE SU INSCRIPCIÓN ¿SE LE INFORMO LA SEDE, EL PROGRAMA Y HORARIO DEL CURSO?",
         "opciones": [
@@ -55,7 +67,7 @@
             "NO"
         ]
       },
-      "p5": {
+      {
         "tipo": "PROFESOR O CONFERENCISTA",
         "pregunta": "¿EL TEMA DEL CURSO, CERTIFICACIÓN O DIPLOMADO FUE…?",
         "opciones": [
@@ -63,7 +75,7 @@
             "NO"
         ]
       },
-      "p6": {
+      {
         "tipo": "PROFESOR O CONFERENCISTA",
         "pregunta": "¿LA PUNTUALIDAD DEL INICIO DEL CURSO, CERTIFICACIÓN O DIPLOMADO FUE…?",
         "opciones": [
@@ -73,7 +85,7 @@
           "MALO"
         ]
       },
-      "p7": {
+      {
         "tipo": "PROFESOR O CONFERENCISTA",
         "pregunta": "EVALUE EL GRADO EN EL QUE EL PROFESOR PREPARO SU PRESENTACIÓN",
         "opciones": [
@@ -83,7 +95,7 @@
           "MALO"
         ]
       },
-      "p8": {
+      {
         "tipo": "PROFESOR O CONFERENCISTA",
         "pregunta": "¿LA DISPOSICIÓN PARA RESOLVER DUDAS Y RESPONDER PREGUNTAS FUE?",
         "opciones": [
@@ -93,7 +105,7 @@
           "MALO"
         ]
       },
-      "p9": {
+      {
         "tipo": "PROFESOR O CONFERENCISTA",
         "pregunta": "¿LA DURACIÓN Y ESPACIADO DE LAS SESIONES LE PARECIÓ?",
         "opciones": [
@@ -103,7 +115,7 @@
           "MALO"
         ]
       },
-      "p10": {
+      {
         "tipo": "SERVICIOS IMCYC",
         "pregunta": "¿LA ATENCIÓN POR PARTE DEL EQUIPO DE IMCYC FUE?",
         "opciones": [
@@ -113,7 +125,7 @@
           "MALO"
         ]
       },
-      "p11": {
+      {
         "tipo": "SERVICIOS IMCYC",
         "pregunta": "¿LA CALIDAD DE LOS MATERIALES OTORGADOS POR EL IMCYC LE PARECIÓ?",
         "opciones": [
@@ -123,7 +135,7 @@
           "MALO"
         ]
       },
-      "p12": {
+      {
         "tipo": "SERVICIOS IMCYC",
         "pregunta": "¿LA CALIDAD DE LOS ALIMENTOS OFRECIDOS DURANTE EL RECESO LE PARECIÓ?",
         "opciones": [
@@ -133,7 +145,7 @@
           "MALO"
         ]
       },
-      "p13": {
+      {
         "tipo": "SERVICIOS IMCYC",
         "pregunta": "¿LA COMODIDAD DEL MOBILIARIO E INSTLACIONES DEL IMCYC LE PARECIÓ?",
         "opciones": [
@@ -143,7 +155,7 @@
           "MALO"
         ]
       },
-      "p14": {
+      {
         "tipo": "PREGUNTAS FINALES",
         "pregunta": "¿COMO SE ENTERO DEL CURSO, CERTIFICACIÓN O DIPLOMADO?",
         "opciones": [
@@ -154,7 +166,7 @@
           "DIRECTAMENTE"
         ]
       },
-      "p15": {
+      {
         "tipo": "PREGUNTAS FINALES",
         "pregunta": "¿COMO SE ENTERO DEL CURSO, CERTIFICACIÓN O DIPLOMADO?",
         "opciones": [
@@ -164,7 +176,7 @@
           "MALO"
         ]
       },
-      "p16": {
+      {
         "tipo": "PREGUNTAS FINALES",
         "pregunta": "¿RECOMENDARIA ESTE CURSO?",
         "opciones": [
@@ -172,14 +184,14 @@
             "NO"
         ]
       },
-      "p17": {
+      {
         "tipo": "PREGUNTAS FINALES",
         "pregunta": "¿QUE OTROS TEMAS O CURSOS LE INTERESARÍAN?"
       },
-      "p18": {
+      {
         "tipo": "PREGUNTAS FINALES",
         "pregunta": "¿ALGÚN COMENTARIO QUE DESEE REALIZAR?"
       }
-    }
+    ]
   }
 }

@@ -38,3 +38,25 @@ a:hover {
   justify-content: center;
 }
 
+.form-control {
+  border-radius: 0;
+  padding: 10px;
+  font-size: 0.8em;
+  font-weight: 800;
+  border: 0;
+  background: #111;
+  color: #f2f2f2 !important;
+  border-radius: 20px;
+  padding: 20px !important;
+}
+
+.form-control:focus {
+  color: #333 !important;
+}
+
+.cambioSeccion {
+  font-size: 1em;
+  border-radius: 50px;
+  padding: 5px 50px;
+  margin-bottom: 10px;
+}
