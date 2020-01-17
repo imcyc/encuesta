@@ -176,11 +176,13 @@
       },
       {
         "tipo": "PREGUNTAS FINALES",
-        "pregunta": "¿QUE OTROS TEMAS O CURSOS LE INTERESARÍAN?"
+        "pregunta": "¿QUE OTROS TEMAS O CURSOS LE INTERESARÍAN?",
+        "opciones": []
       },
       {
         "tipo": "PREGUNTAS FINALES",
-        "pregunta": "¿ALGÚN COMENTARIO QUE DESEE REALIZAR?"
+        "pregunta": "¿ALGÚN COMENTARIO QUE DESEE REALIZAR?",
+        "opciones": []
       }
     ]
   }

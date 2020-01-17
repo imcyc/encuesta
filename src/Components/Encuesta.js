@@ -63,8 +63,15 @@ const Encuesta = () => {
                   <h2 className="text-left">{pregunta.pregunta}</h2>
                   <hr/>
                   {pregunta.opciones.map(opcion => (
-                    <p>{opcion}</p>
-                  ))};
+                    <Form.Check
+                      custom
+                      inline
+                      label="1"
+                      type={opcion}
+                      type="radio"
+                      id={`custom-inline-${opcion}-1`}
+                    />
+                  ))}
                 </>
                 
                 //<Form.Group key={pregunta.pregunta}>
