@@ -1,0 +1,67 @@
+.wpestructuras {
+  width: 100%;
+  padding: 10px 90px;
+}
+.wpestructuras h1 {
+  font-size: 0.9em !important;
+}
+.wpestructuras h2 {
+  font-size: 1.2em !important;
+}
+.wpestructuras p {
+  font-size: 0.7em !important;
+}
+.wpestructuras h3 {
+  font-size: 1.2em !important;
+  font-weight: 100;
+}
+.wpestructuras .estructuras {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  justify-content: center;
+}
+.wpestructuras .estructuras .secciones {
+  padding: 20px;
+  margin: 3px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+
+
+.wpestructuras .estructuras .secciones h2 {
+  font-size: 0.6em !important;
+  font-weight: 800;
+  color: #ffffff;
+  transition: all 1s;
+  margin-top: 15px;
+}
+.wpestructuras .estructuras .secciones:hover {
+  background: #ea8823;
+  color: #ffffff !important;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #333;
+}
+.wpestructuras .estructuras .secciones:hover h2 {
+  color: #ffffff !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .wpestructuras {
+    padding: 0;
+    width: 100%;
+  }
+  .wpestructuras .estructuras {
+    flex-direction: column;
+    width: 100%;
+  }
+  .wpestructuras .estructuras .secciones h2 {
+    font-size: 1.3em !important;
+  }
+  .wpestructuras .estructuras .secciones img {
+    width: 50%;
+  }
+}

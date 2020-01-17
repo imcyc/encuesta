@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+a {
+  color: #ea8823;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background: rgb(83,120,154);
+background: -moz-radial-gradient(circle, rgba(83,120,154,1) 0%, rgba(19,26,33,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(83,120,154,1) 0%, rgba(19,26,33,1) 100%);
+background: radial-gradient(circle, rgba(83,120,154,1) 0%, rgba(19,26,33,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#53789a",endColorstr="#131a21",GradientType=1);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header h1 {
+  font-size: 3em;
+  color: #d2d2d2;
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+}
+
+.App-header h2 {
+  font-size: 3em;
+  color: #ea8823;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header p {
+  font-size: 1em;
+  color: #ffffff;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header button {
+  border-radius: 0%;
+  font-weight: 200;
+  font-size: 1.2em;
+  background: #EA8822;
+  color: #fff;
+  transition: all 1s;
+  padding: 5px 30px;
+  border:none;
+}
+
+.App-header button:hover {
+  background: rgb(255, 255, 255);
+  color: #333333;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.calcular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
