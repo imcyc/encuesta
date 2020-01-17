@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -24,14 +24,20 @@ const Encuesta = () => {
   let styleDos = {};
   if (!seccionDos) styleDos.display = "none";
 
-  console.log(seccionDos);
+  const enviarDatos = (e) => {
+    e.preventDefault();
+    console.log('mandar datos');
+    const r1 = e.target.nombre_completo.value;
+    console.log(r1);
+    const ro1 = e.target.customRadioInline1.value;
+    console.log(ro1);
+  }
 
   return(
     <div>
       <Header />
-      <Container>
-      <Form>
-
+      <Container className="mb-5">
+      <Form onSubmit={enviarDatos}>
         <div style={style}>
           <Row>
             <Col>
@@ -42,16 +48,20 @@ const Encuesta = () => {
           </Row>
           <Row>
             <Col style={{marginTop: '15px'}}>
-              {datosPersonalesPreguntas.map(pregunta => (
-                <Form.Control key={pregunta.nombre} placeholder={pregunta.nombre} type={pregunta.tipo} style={{marginBottom: '10px'}} required/>
+              {datosPersonalesPreguntas.map((pregunta, index) => (
+                <Form.Control 
+                  key={index} 
+                  name={pregunta.valor} 
+                  placeholder={pregunta.nombre} 
+                  type={pregunta.tipo} 
+                  style={{marginBottom: '10px'}}
+                />
               ))}
             </Col>
           </Row>
           <Button variant="outline-light" className="cambioSeccion" onClick={datosPersonales}>SIGUIENTE</Button>
         </div>
-
         <div style={styleDos}>
-
           <Row>
             <Col>
               <hr/>
@@ -61,44 +71,37 @@ const Encuesta = () => {
           </Row>
           <Row>
             <Col style={{marginTop: '15px'}}>
-              {datosImcycPreguntas.map((pregunta, index) => (
-                <>
-                  <h3 className="text-left" className="numero">{index + 1}</h3>
-                  <h2 className="text-left">{pregunta.pregunta}</h2>
+              {datosImcycPreguntas.map((pregunta, i) => (
+                <div key={i} style={{marginBottom: '40px'}}>
+                  <h3 className="text-left" className="numero">{i + 1}</h3>
+                  <h2 className="text-left preguntame">{pregunta.pregunta}</h2>
                   <Row>
                     {pregunta.opciones.map((opcion, index) => (
-                      <>
-                        <Col>
-                          <div class="custom-control custom-radio custom-control-inline">
+                        <Col key={index}>
+                          <div className="custom-control custom-radio custom-control-inline">
                             <input 
                               type="radio" 
-                              id={`customRadioInline-${pregunta.tracker}-${index}`} 
-                              name={`customRadioInline-${pregunta.tracker}`} 
-                              class="custom-control-input" 
+                              id={`customRadioInline${pregunta.tracker}-${index}`} 
+                              name={`customRadioInline${pregunta.tracker}`} 
+                              className="custom-control-input" 
+                              value={opcion}
                             />
                             <label 
-                              class="custom-control-label" 
-                              for={`customRadioInline-${pregunta.tracker}-${index}`}>
+                              className="custom-control-label" 
+                              htmlFor={`customRadioInline${pregunta.tracker}-${index}`}>
                                 {opcion}
                             </label>
                           </div>
                         </Col>
-                      </>
                     ))}
                   </Row>
                   <hr/>
-                </>
-                
-                //<Form.Group key={pregunta.pregunta}>
-                //  <Form.Label>{pregunta.pregunta}</Form.Label>
-                //  <Form.Control type="text" placeholder={pregunta.pregunta} />
-                //</Form.Group>
+                </div>
               ))}
             </Col>
           </Row>
-          <Button variant="outline-light" className="cambioSeccion" onClick={datosPersonales}>SIGUIENTE</Button>
+          <Button type='submit' variant="outline-light" className="cambioSeccion">ENVIAR ENCUESTA</Button>
         </div>
-        
       </Form>
       </Container>
     </div>

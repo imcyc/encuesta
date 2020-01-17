@@ -8,7 +8,7 @@
       },
       {
         "nombre": "FECHA",
-        "valor": "nombre_completo",
+        "valor": "fecha",
         "tipo": "date"
       },
       {
