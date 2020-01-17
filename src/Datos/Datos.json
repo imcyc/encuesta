@@ -1,0 +1,185 @@
+{
+  "preguntas": {
+    "personal": {
+      "p1": {
+        "pregunta": "NOMBRE COMPLETO"
+      },
+      "p2": {
+        "pregunta": "FECHA"
+      },
+      "p3": {
+        "pregunta": "CORREO ELECTRÓNICO"
+      },
+      "p4": {
+        "pregunta": "EMPRESA"
+      },
+      "p5": {
+        "pregunta": "NOMBRE DEL CURSO"
+      },
+      "p6": {
+        "pregunta": "TELÉFONO"
+      }
+    },
+    "imcyc": {
+      "p1": {
+          "tipo": "ATENCIÓN AL CLIENTE",
+          "pregunta": "¿EL TRATO QUE USTED RECIBIO AL MOMENTO DE CONTRATAR EL CURSO, CERTIFICACION O DIPLOMADO FUE…?",
+          "opciones": [
+              "EXCELENTE",
+              "BUENO",
+              "REGULAR",
+              "MALO"
+          ]
+      },
+      "p2": {
+        "tipo": "ATENCIÓN AL CLIENTE",
+        "pregunta": "¿SOLICITO FACTURA AL MOMENTO DE SU INSCRIPCIÓN?",
+        "opciones": [
+            "SI",
+            "NO"
+        ]
+      },
+      "p3": {
+        "tipo": "ATENCIÓN AL CLIENTE",
+        "pregunta": "¿USTED YA RECIBIO SU FACTURA?",
+        "opciones": [
+            "SI",
+            "NO"
+        ]
+      },
+      "p4": {
+        "tipo": "ATENCIÓN AL CLIENTE",
+        "pregunta": "¿AL MOMENTO DE SU INSCRIPCIÓN ¿SE LE INFORMO LA SEDE, EL PROGRAMA Y HORARIO DEL CURSO?",
+        "opciones": [
+            "SI",
+            "NO"
+        ]
+      },
+      "p5": {
+        "tipo": "PROFESOR O CONFERENCISTA",
+        "pregunta": "¿EL TEMA DEL CURSO, CERTIFICACIÓN O DIPLOMADO FUE…?",
+        "opciones": [
+            "SI",
+            "NO"
+        ]
+      },
+      "p6": {
+        "tipo": "PROFESOR O CONFERENCISTA",
+        "pregunta": "¿LA PUNTUALIDAD DEL INICIO DEL CURSO, CERTIFICACIÓN O DIPLOMADO FUE…?",
+        "opciones": [
+          "EXCELENTE",
+          "BUENO",
+          "REGULAR",
+          "MALO"
+        ]
+      },
+      "p7": {
+        "tipo": "PROFESOR O CONFERENCISTA",
+        "pregunta": "EVALUE EL GRADO EN EL QUE EL PROFESOR PREPARO SU PRESENTACIÓN",
+        "opciones": [
+          "EXCELENTE",
+          "BUENO",
+          "REGULAR",
+          "MALO"
+        ]
+      },
+      "p8": {
+        "tipo": "PROFESOR O CONFERENCISTA",
+        "pregunta": "¿LA DISPOSICIÓN PARA RESOLVER DUDAS Y RESPONDER PREGUNTAS FUE?",
+        "opciones": [
+          "EXCELENTE",
+          "BUENO",
+          "REGULAR",
+          "MALO"
+        ]
+      },
+      "p9": {
+        "tipo": "PROFESOR O CONFERENCISTA",
+        "pregunta": "¿LA DURACIÓN Y ESPACIADO DE LAS SESIONES LE PARECIÓ?",
+        "opciones": [
+          "EXCELENTE",
+          "BUENO",
+          "REGULAR",
+          "MALO"
+        ]
+      },
+      "p10": {
+        "tipo": "SERVICIOS IMCYC",
+        "pregunta": "¿LA ATENCIÓN POR PARTE DEL EQUIPO DE IMCYC FUE?",
+        "opciones": [
+          "EXCELENTE",
+          "BUENO",
+          "REGULAR",
+          "MALO"
+        ]
+      },
+      "p11": {
+        "tipo": "SERVICIOS IMCYC",
+        "pregunta": "¿LA CALIDAD DE LOS MATERIALES OTORGADOS POR EL IMCYC LE PARECIÓ?",
+        "opciones": [
+          "EXCELENTE",
+          "BUENO",
+          "REGULAR",
+          "MALO"
+        ]
+      },
+      "p12": {
+        "tipo": "SERVICIOS IMCYC",
+        "pregunta": "¿LA CALIDAD DE LOS ALIMENTOS OFRECIDOS DURANTE EL RECESO LE PARECIÓ?",
+        "opciones": [
+          "EXCELENTE",
+          "BUENO",
+          "REGULAR",
+          "MALO"
+        ]
+      },
+      "p13": {
+        "tipo": "SERVICIOS IMCYC",
+        "pregunta": "¿LA COMODIDAD DEL MOBILIARIO E INSTLACIONES DEL IMCYC LE PARECIÓ?",
+        "opciones": [
+          "EXCELENTE",
+          "BUENO",
+          "REGULAR",
+          "MALO"
+        ]
+      },
+      "p14": {
+        "tipo": "PREGUNTAS FINALES",
+        "pregunta": "¿COMO SE ENTERO DEL CURSO, CERTIFICACIÓN O DIPLOMADO?",
+        "opciones": [
+          "AMIGO",
+          "COLABORADOR",
+          "PÁGINA WEB",
+          "REDES SOCIALES",
+          "DIRECTAMENTE"
+        ]
+      },
+      "p15": {
+        "tipo": "PREGUNTAS FINALES",
+        "pregunta": "¿COMO SE ENTERO DEL CURSO, CERTIFICACIÓN O DIPLOMADO?",
+        "opciones": [
+          "EXCELENTE",
+          "BUENO",
+          "REGULAR",
+          "MALO"
+        ]
+      },
+      "p16": {
+        "tipo": "PREGUNTAS FINALES",
+        "pregunta": "¿RECOMENDARIA ESTE CURSO?",
+        "opciones": [
+            "SI",
+            "NO"
+        ]
+      },
+      "p17": {
+        "tipo": "PREGUNTAS FINALES",
+        "pregunta": "¿QUE OTROS TEMAS O CURSOS LE INTERESARÍAN?"
+      },
+      "p18": {
+        "tipo": "PREGUNTAS FINALES",
+        "pregunta": "¿ALGÚN COMENTARIO QUE DESEE REALIZAR?"
+      }
+    }
+  }
+}
