@@ -168,16 +168,6 @@
       },
       {
         "tipo": "PREGUNTAS FINALES",
-        "pregunta": "¿COMO SE ENTERO DEL CURSO, CERTIFICACIÓN O DIPLOMADO?",
-        "opciones": [
-          "EXCELENTE",
-          "BUENO",
-          "REGULAR",
-          "MALO"
-        ]
-      },
-      {
-        "tipo": "PREGUNTAS FINALES",
         "pregunta": "¿RECOMENDARIA ESTE CURSO?",
         "opciones": [
             "SI",

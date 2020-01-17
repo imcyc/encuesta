@@ -14,17 +14,23 @@ const Encuesta = () => {
   const datosImcycPreguntas = myData.preguntas.imcyc;
 
   const datosPersonales = (e) => {
-    e.preventDefault();
     setSeccionUno(!seccionUno);
     setSeccionDos(!seccionDos);
   }
+
+  let style = {};
+  if (!seccionUno) style.display = "none";
+  let styleDos = {};
+  if (!seccionDos) styleDos.display = "none";
+
+  console.log(seccionDos);
 
   return(
     <div>
       <Header />
       <Form>
-        
-        <div style={{display: seccionUno ? 'normal' : 'none'}}>
+
+        <div style={style}>
           <Row>
             <Col>
               <hr/>
@@ -42,7 +48,7 @@ const Encuesta = () => {
           <Button variant="outline-light" className="cambioSeccion" onClick={datosPersonales}>SIGUIENTE</Button>
         </div>
 
-        <div style={{display: seccionDos ? 'normal' : 'none'}}>
+        <div style={styleDos}>
           <Row>
             <Col>
               <hr/>
@@ -53,10 +59,18 @@ const Encuesta = () => {
           <Row>
             <Col style={{marginTop: '15px'}}>
               {datosImcycPreguntas.map(pregunta => (
-                <Form.Group controlId="formBasicEmail">
-                  <Form.Label>{pregunta.pregunta}</Form.Label>
-                  <Form.Control type="text" placeholder={pregunta.pregunta} />
-                </Form.Group>
+                <>
+                  <h2 className="text-left">{pregunta.pregunta}</h2>
+                  <hr/>
+                  {pregunta.opciones.map(opcion => (
+                    <p>{opcion}</p>
+                  ))};
+                </>
+                
+                //<Form.Group key={pregunta.pregunta}>
+                //  <Form.Label>{pregunta.pregunta}</Form.Label>
+                //  <Form.Control type="text" placeholder={pregunta.pregunta} />
+                //</Form.Group>
               ))}
             </Col>
           </Row>
