@@ -56,7 +56,7 @@
       {
         "tipo": "ATENCIÓN AL CLIENTE",
         "tracker": 3,
-        "pregunta": "¿USTED YA RECIBIO SU FACTURA?",
+        "pregunta": "¿USTED YA RECIBIÓ SU FACTURA?",
         "opciones": [
             "SI",
             "NO"
@@ -65,7 +65,7 @@
       {
         "tipo": "ATENCIÓN AL CLIENTE",
         "tracker": 4,
-        "pregunta": "¿AL MOMENTO DE SU INSCRIPCIÓN ¿SE LE INFORMO LA SEDE, EL PROGRAMA Y HORARIO DEL CURSO?",
+        "pregunta": "AL MOMENTO DE SU INSCRIPCIÓN ¿SE LE INFORMO LA SEDE, EL PROGRAMA Y HORARIO DEL CURSO?",
         "opciones": [
             "SI",
             "NO"
@@ -94,7 +94,7 @@
       {
         "tipo": "PROFESOR O CONFERENCISTA",
         "tracker": 7,
-        "pregunta": "EVALUE EL GRADO EN EL QUE EL PROFESOR PREPARO SU PRESENTACIÓN",
+        "pregunta": "EVALUE EL GRADO EN EL QUE EL PROFESOR PREPARÓ SU PRESENTACIÓN",
         "opciones": [
           "EXCELENTE",
           "BUENO",
