@@ -76,7 +76,6 @@ const Encuesta = () => {
                   <h3 className="text-left" className="numero">{i + 1}</h3>
                   <h2 className="text-left preguntame">{pregunta.pregunta}</h2>
                   <Row>
-                    {pregunta.opciones ? "si hay" : "no hay"}
                     {pregunta.opciones.map((opcion, index) => (
                         <Col key={index}>
                           <div className="custom-control custom-radio custom-control-inline">
