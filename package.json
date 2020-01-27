@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://imcyc.github.io/encuesta",
   "dependencies": {
+    "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "gh-pages": "^2.1.1",
     "react": "^16.11.0",
