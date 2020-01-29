@@ -2,7 +2,7 @@
   "name": "macrofibras",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.imcyc.com/encuesta",
+  "homepage": "https://www.imcyc.com/encuesta2020",
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
