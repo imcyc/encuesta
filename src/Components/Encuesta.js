@@ -29,12 +29,31 @@ const Encuesta = () => {
   const enviarDatos = (e) => {
     e.preventDefault();
 
-    const user = {
-      r1: e.target.nombre_completo.value,
-      ro1: e.target.customRadioInline1.value
+    const preguntas = {
+      nombre: e.target.nombre.value,
+      fecha: e.target.fecha.value,
+      email: e.target.email.value,
+      empresa: e.target.empresa.value,
+      curso: e.target.curso.value,
+      telefono: e.target.telefono.value,
+      resultadouno: e.target.customRadioInline1.value,
+      resultadodos: e.target.customRadioInline2.value,
+      resultadotres: e.target.customRadioInline3.value,
+      resultadocuatro: e.target.customRadioInline4.value,
+      resultadocinco: e.target.customRadioInline5.value,
+      resultadoseis: e.target.customRadioInline6.value,
+      resultadosiete: e.target.customRadioInline7.value,
+      resultadoocho: e.target.customRadioInline8.value,
+      resultadonueve: e.target.customRadioInline9.value,
+      resultadodiez: e.target.customRadioInline10.value,
+      resultadoonce: e.target.customRadioInline11.value,
+      resultadodoce: e.target.customRadioInline12.value,
+      resultadotrece: e.target.customRadioInline13.value,
+      resultadocatorce: e.target.customRadioInline14.value,
+      resultadoquince: e.target.customRadioInline15.value
     };
 
-    axios.post(`http://www.imcyc.com/biblioteca/apiencuesta.php`, { user })
+    axios.post(`http://www.imcyc.com/biblioteca/apiencuesta.php`, { preguntas })
       .then(res => {
         console.log(res);
         console.log(res.data);
@@ -59,7 +78,7 @@ const Encuesta = () => {
                     <hr/>
                   </Col>
                 </Row>
-                <Row>
+                <Row className="p-3">
                   <Col style={{marginTop: '15px'}}>
                     {datosPersonalesPreguntas.map((pregunta, index) => (
                       <Form.Control 
@@ -88,7 +107,7 @@ const Encuesta = () => {
                       <div key={i} style={{marginBottom: '40px'}}>
                         <h3 className="text-left" className="numero">{i + 1}</h3>
                         <h2 className="text-left preguntame">{pregunta.pregunta}</h2>
-                        <Row>
+                        <Row className="p-3">
                           {pregunta.opciones.length > 0 ? 
                             pregunta.opciones.map((opcion, index) => (
                               <Col key={index}>

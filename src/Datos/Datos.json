@@ -3,7 +3,7 @@
     "personal": [
       {
         "nombre": "NOMBRE COMPLETO",
-        "valor": "nombre_completo",
+        "valor": "nombre",
         "tipo": "text"
       },
       {
@@ -13,7 +13,7 @@
       },
       {
         "nombre": "CORREO ELECTRÓNICO",
-        "valor": "correo_electronico",
+        "valor": "email",
         "tipo": "email"
       },
       {
@@ -35,6 +35,7 @@
     "imcyc": [
       {
         "tipo": "ATENCIÓN AL CLIENTE",
+        "valor": "resultadouno",
         "tracker": 1,
         "pregunta": "¿EL TRATO QUE USTED RECIBIÓ AL MOMENTO DE CONTRATAR EL CURSO, CERTIFICACIÓN O DIPLOMADO FUE…?",
         "opciones": [
