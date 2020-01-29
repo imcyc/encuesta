@@ -68,7 +68,6 @@ const Encuesta = () => {
                         placeholder={pregunta.nombre} 
                         type={pregunta.tipo} 
                         style={{marginBottom: '10px'}}
-                        
                       />
                     ))}
                   </Col>
